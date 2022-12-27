@@ -1,0 +1,398 @@
+[
+  {
+    "model": "quizapp.answer",
+    "pk": 14,
+    "fields": {
+      "question": 6,
+      "title": "интерпретируемый высокоуровневый язык программирования",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 15,
+    "fields": {
+      "question": 6,
+      "title": "объектно-ориентированный язык программирования",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 16,
+    "fields": {
+      "question": 6,
+      "title": "процедурный, функциональный, структурный язык программирования",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 17,
+    "fields": {
+      "question": 6,
+      "title": "всё перечисленное",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 18,
+    "fields": {
+      "question": 7,
+      "title": "от фамилии разработчика языка",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 19,
+    "fields": {
+      "question": 7,
+      "title": "от семейства неядовитых змей",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 20,
+    "fields": {
+      "question": 7,
+      "title": "от телешоу \"Летающий цирк Монти Пайтона\"",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 21,
+    "fields": {
+      "question": 7,
+      "title": "ни от чего",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 22,
+    "fields": {
+      "question": 8,
+      "title": "Компания Майкрософт",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 23,
+    "fields": {
+      "question": 8,
+      "title": "Монти Пайтон",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 24,
+    "fields": {
+      "question": 8,
+      "title": "Гвидо ван Россум",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 25,
+    "fields": {
+      "question": 9,
+      "title": "Февраль 1991",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 26,
+    "fields": {
+      "question": 9,
+      "title": "Июль 2001",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 27,
+    "fields": {
+      "question": 9,
+      "title": "Март 1987",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 28,
+    "fields": {
+      "question": 10,
+      "title": "Lisp",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 29,
+    "fields": {
+      "question": 10,
+      "title": "ABC",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 30,
+    "fields": {
+      "question": 10,
+      "title": "C",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 31,
+    "fields": {
+      "question": 10,
+      "title": "Английского",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 32,
+    "fields": {
+      "question": 11,
+      "title": "Иногда",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 33,
+    "fields": {
+      "question": 11,
+      "title": "Нет",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 34,
+    "fields": {
+      "question": 11,
+      "title": "Да",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 35,
+    "fields": {
+      "question": 12,
+      "title": "test_",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 36,
+    "fields": {
+      "question": 12,
+      "title": "6test",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 37,
+    "fields": {
+      "question": 12,
+      "title": "_6test",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 38,
+    "fields": {
+      "question": 13,
+      "title": "pass",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 39,
+    "fields": {
+      "question": 13,
+      "title": "stop",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 40,
+    "fields": {
+      "question": 13,
+      "title": "break",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 41,
+    "fields": {
+      "question": 13,
+      "title": "exit",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 42,
+    "fields": {
+      "question": 14,
+      "title": "print()",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 43,
+    "fields": {
+      "question": 14,
+      "title": "log()",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 44,
+    "fields": {
+      "question": 14,
+      "title": "show()",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 45,
+    "fields": {
+      "question": 14,
+      "title": "get()",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 46,
+    "fields": {
+      "question": 15,
+      "title": "get()",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 47,
+    "fields": {
+      "question": 15,
+      "title": "user_input()",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 48,
+    "fields": {
+      "question": 15,
+      "title": "user_get()",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 49,
+    "fields": {
+      "question": 15,
+      "title": "input()",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 50,
+    "fields": {
+      "question": 16,
+      "title": "3",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 51,
+    "fields": {
+      "question": 16,
+      "title": "4",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 52,
+    "fields": {
+      "question": 17,
+      "title": "2",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 53,
+    "fields": {
+      "question": 17,
+      "title": "4",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 54,
+    "fields": {
+      "question": 17,
+      "title": "3",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 55,
+    "fields": {
+      "question": 18,
+      "title": "8",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 56,
+    "fields": {
+      "question": 18,
+      "title": "6",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "quizapp.answer",
+    "pk": 57,
+    "fields": {
+      "question": 18,
+      "title": "4",
+      "is_correct": false
+    }
+  }
+]

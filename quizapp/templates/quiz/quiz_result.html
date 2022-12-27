@@ -1,0 +1,52 @@
+{% extends 'quiz/base.html' %}
+{% load quiz_extras %}
+
+{% block content %}
+    {% include 'quiz/header.html' with active='taken' %}
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{% url 'quiz:main' %}">Тесты</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{{ quiz.title }}</li>
+        </ol>
+    </nav>
+    <!-- <h2>{{quiz.title}}</h2> -->
+    {{ quiz.category.title }}<br>
+
+{#    <div class="progress">#}
+{#        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: {{ percent }}%"#}
+{#             aria-valuenow="{{ percent }}" aria-valuemin="0" aria-valuemax="100">{{ percent }}%#}
+{#        </div>#}
+{#    </div><br>#}
+    {% for question in questions %}
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">{{ forloop.counter }}. {{ question.title }}</h5>
+                <table class="table table-bordered table-sm">
+                    <thead>
+                    <tr>
+                        <th>Ваш</th>
+                        <th>Правильный</th>
+                        <th>Все варианты</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for opt in question.answer_set.all %}
+                        {% marked_answer user opt as opt_marked %}
+                        <tr>
+                            <td style="width: 100px;{% if opt_marked == 'correct' %} background:green{% elif opt_marked == 'wrong' %} background:red{% endif %}"></td>
+                            <td style="width: 100px;{% if opt.is_correct %} background:green{% endif %}"></td>
+                            <td>{{ opt.title }}</td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br>
+    {% endfor %}
+{% endblock %}
+
+{% block scripts %}
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+{% endblock %}

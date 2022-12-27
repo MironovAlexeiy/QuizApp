@@ -1,0 +1,30 @@
+[
+  {
+    "model": "quizapp.quiz",
+    "pk": 13,
+    "fields": {
+      "author": 1,
+      "title": "Тест по основам Python",
+      "slug": "test-po-osnovam-python",
+      "category": 9,
+      "description": "Тест из 10 вопросов для новичков.\r\nПроверь свои знания!",
+      "is_public": true,
+      "created": "2022-12-27T10:05:21.395Z",
+      "users": []
+    }
+  },
+  {
+    "model": "quizapp.quiz",
+    "pk": 14,
+    "fields": {
+      "author": 1,
+      "title": "Основы математики",
+      "slug": "osnovy-matematiki",
+      "category": 10,
+      "description": "математика начального уровня",
+      "is_public": true,
+      "created": "2022-12-27T11:29:50.801Z",
+      "users": []
+    }
+  }
+]

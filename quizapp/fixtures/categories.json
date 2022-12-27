@@ -1,0 +1,29 @@
+[
+  {
+    "model": "quizapp.category",
+    "pk": 9,
+    "fields": {
+      "title": "Программирование",
+      "slug": "testy-po-programmirovaniyu",
+      "description": "Тесты по ЯП различной сложности."
+    }
+  },
+  {
+    "model": "quizapp.category",
+    "pk": 10,
+    "fields": {
+      "title": "Математика",
+      "slug": "matematika",
+      "description": "Тесты по математике."
+    }
+  },
+  {
+    "model": "quizapp.category",
+    "pk": 11,
+    "fields": {
+      "title": "Спорт",
+      "slug": "sport",
+      "description": "Тесты на тему \"спорт\"."
+    }
+  }
+]

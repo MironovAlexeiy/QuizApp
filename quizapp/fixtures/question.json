@@ -1,0 +1,119 @@
+[
+  {
+    "model": "quizapp.question",
+    "pk": 6,
+    "fields": {
+      "quiz": 13,
+      "title": "Python — это?",
+      "image": ""
+    }
+  },
+  {
+    "model": "quizapp.question",
+    "pk": 7,
+    "fields": {
+      "quiz": 13,
+      "title": "От чего происходит название языка программирования Python?",
+      "image": ""
+    }
+  },
+  {
+    "model": "quizapp.question",
+    "pk": 8,
+    "fields": {
+      "quiz": 13,
+      "title": "Кто разработал Python?",
+      "image": ""
+    }
+  },
+  {
+    "model": "quizapp.question",
+    "pk": 9,
+    "fields": {
+      "quiz": 13,
+      "title": "Когда впервые был представлен Python?",
+      "image": ""
+    }
+  },
+  {
+    "model": "quizapp.question",
+    "pk": 10,
+    "fields": {
+      "quiz": 13,
+      "title": "Наследником какого языка программирования является Python?",
+      "image": ""
+    }
+  },
+  {
+    "model": "quizapp.question",
+    "pk": 11,
+    "fields": {
+      "quiz": 13,
+      "title": "Чувствителен ли Python к регистру при работе с переменными?",
+      "image": ""
+    }
+  },
+  {
+    "model": "quizapp.question",
+    "pk": 12,
+    "fields": {
+      "quiz": 13,
+      "title": "Выберите недопустимое имя переменной.",
+      "image": ""
+    }
+  },
+  {
+    "model": "quizapp.question",
+    "pk": 13,
+    "fields": {
+      "quiz": 13,
+      "title": "Какое ключевое слово используется для остановки цикла?",
+      "image": ""
+    }
+  },
+  {
+    "model": "quizapp.question",
+    "pk": 14,
+    "fields": {
+      "quiz": 13,
+      "title": "Какая функция используется для вывода данных в консоль?",
+      "image": ""
+    }
+  },
+  {
+    "model": "quizapp.question",
+    "pk": 15,
+    "fields": {
+      "quiz": 13,
+      "title": "Какая функция используется для получения данных от пользователя?",
+      "image": ""
+    }
+  },
+  {
+    "model": "quizapp.question",
+    "pk": 16,
+    "fields": {
+      "quiz": 14,
+      "title": "2+2 = ?",
+      "image": ""
+    }
+  },
+  {
+    "model": "quizapp.question",
+    "pk": 17,
+    "fields": {
+      "quiz": 14,
+      "title": "2 + 2 / 2 = ?",
+      "image": ""
+    }
+  },
+  {
+    "model": "quizapp.question",
+    "pk": 18,
+    "fields": {
+      "quiz": 14,
+      "title": "2 + 2^2 = ?",
+      "image": ""
+    }
+  }
+]
